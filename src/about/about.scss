@@ -1,24 +1,42 @@
 @import "../globals.scss";
+$gridBorderRadius: 0.2rem;
+$gradient: linear-gradient(
+    90deg,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+);
+$gradient2: linear-gradient(90deg, rgba(63, 94, 251, 1), rgba(252, 70, 107, 1))
+    1;
+$gradientWhite: linear-gradient(90deg, $bgColor2, $bgColor2) 1;
+
+#sourceCodeLink {
+    color: $color4;
+}
 
 #aboutContainer {
-    background-color: #181818;
+    background-color: $bgColor3;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 55rem;
 }
-#aboutTitle {
+#aboutTitle,
+#techsTitle {
     font-size: 2.2em;
     margin: 2rem 0 2rem 0;
     text-align: justify;
-    color: #ffffff;
+    background-image: $gradient;
+    background-clip: text;
+    color: $transparent;
     font-weight: bold;
 }
-#aboutTitle,
-#aboutText {
+
+#techsTitle,
+#aboutTitle {
     margin-left: 1rem;
 }
 #aboutText {
-    width: 22rem;
+    width: 90%;
+    margin-left: 1.2rem;
 }
 #about {
     width: 100%;
@@ -38,11 +56,32 @@
     column-gap: 1.2rem;
 }
 #techsGrid a {
-    background-color: #2c2c2c;
-    border-radius: 0.2rem;
-    border: solid 0.1rem #464646;
+    border-radius: $gridBorderRadius;
+    border-image: $gradientWhite;
+    border-width: 0.15rem;
+    border-style: solid;
+    background-color: $bgColor1;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    color: rgb(204, 204, 204);
+    font-size: 0.8rem;
+    filter: brightness(50%);
+}
+#techsGrid a:visited,
+#techsGrid a:link,
+#techsGrid a:active {
+    text-decoration: none;
 }
 #techsGrid a:hover {
-    border: solid 0.1rem #ffffff;
+    border-image: $gradient2;
     transition: 0.2s;
+    filter: brightness(100%);
+}
+#techsGrid a img {
+    object-fit: contain;
+    display: block;
+    margin: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 0.3rem;
 }
