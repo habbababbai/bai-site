@@ -1,10 +1,12 @@
-#bg {
-    background-color: #ff3cac;
+@import "../globals.scss";
+
+#headerBg {
+    background-color: $color1;
     background-image: linear-gradient(
         225deg,
-        #ff3cac 0%,
-        #784ba0 50%,
-        #2b86c5 100%
+        $color1 0%,
+        $color2 50%,
+        $color3 100%
     );
 
     height: 100vh;
@@ -13,7 +15,7 @@
     align-items: center;
 }
 
-#bg span {
+#headerBg span {
     font-size: 2em;
     font-weight: bold;
 }
@@ -26,20 +28,19 @@
 
 #t1,
 #t4 {
-    margin-left: 2rem;
+    margin-left: 1.5rem;
 }
 
 #t1 {
     animation: fadeIn 1s;
 }
 #t2 {
-    animation: fadeIn 4s;
+    animation: fadeIn 3s;
 }
 
 #t3 {
-    animation: fadeIn 4s;
-    color: #0093e9;
-    font-weight: bold;
+    animation: fadeIn 3s;
+    color: #ecf759f8;
 }
 #t4 {
     animation: fadeIn 6s;
