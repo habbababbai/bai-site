@@ -1,0 +1,58 @@
+#bg {
+    background-color: #ff3cac;
+    background-image: linear-gradient(
+        225deg,
+        #ff3cac 0%,
+        #784ba0 50%,
+        #2b86c5 100%
+    );
+
+    height: 100vh;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+#bg span {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#t1,
+#t2,
+#t4 {
+    color: white;
+}
+
+#t1,
+#t4 {
+    margin-left: 2rem;
+}
+
+#t1 {
+    animation: fadeIn 1s;
+}
+#t2 {
+    animation: fadeIn 4s;
+}
+
+#t3 {
+    animation: fadeIn 4s;
+    color: #0093e9;
+    font-weight: bold;
+}
+#t4 {
+    animation: fadeIn 6s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0%;
+    }
+    60% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
