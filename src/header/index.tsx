@@ -1,5 +1,7 @@
 import "./header.scss";
 
+//TODO Add button
+
 function Header() {
     return (
         <div id="headerBg">

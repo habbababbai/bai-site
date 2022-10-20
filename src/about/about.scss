@@ -1,17 +1,4 @@
 @import "../globals.scss";
-$gridBorderRadius: 0.2rem;
-$gradient: linear-gradient(
-    90deg,
-    rgba(63, 94, 251, 1) 0%,
-    rgba(252, 70, 107, 1) 100%
-);
-$gradient2: linear-gradient(90deg, rgba(63, 94, 251, 1), rgba(252, 70, 107, 1))
-    1;
-$gradientWhite: linear-gradient(90deg, $bgColor2, $bgColor2) 1;
-
-#sourceCodeLink {
-    color: $color4;
-}
 
 #aboutContainer {
     background-color: $bgColor3;
@@ -21,13 +8,14 @@ $gradientWhite: linear-gradient(90deg, $bgColor2, $bgColor2) 1;
 }
 #aboutTitle,
 #techsTitle {
-    font-size: 2.2em;
+    font-size: $titleFontSize;
     margin: 2rem 0 2rem 0;
     text-align: justify;
     background-image: $gradient;
     background-clip: text;
     color: $transparent;
     font-weight: bold;
+    font-family: $font1;
 }
 
 #techsTitle,
@@ -37,10 +25,11 @@ $gradientWhite: linear-gradient(90deg, $bgColor2, $bgColor2) 1;
 #aboutText {
     width: 90%;
     margin-left: 1.2rem;
+    font-size: $textFontSize;
 }
 #about {
     width: 100%;
-    color: #ffffff;
+    color: $fontColor1;
     font-family: $font1;
     text-align: justify;
 }
@@ -56,7 +45,6 @@ $gradientWhite: linear-gradient(90deg, $bgColor2, $bgColor2) 1;
     column-gap: 1.2rem;
 }
 #techsGrid a {
-    border-radius: $gridBorderRadius;
     border-image: $gradientWhite;
     border-width: 0.15rem;
     border-style: solid;

@@ -1,10 +1,36 @@
+//
+//FONTS
 $font1: "Lato", sans-serif;
+$titleFontSize: 2.2em;
+$textFontSize: 1em;
 
+//
+//COLORS
 $color1: #ff3cac;
 $color2: #784ba0;
 $color3: #2b86c5;
 $color4: #fffd7cf8;
+
 $bgColor1: #2c2c2c;
 $bgColor2: #464646;
 $bgColor3: #181818;
+
+$fontColor1: rgb(255, 255, 255);
+
 $transparent: #ffffff00;
+
+//
+//GRADIENTS
+$gradient: linear-gradient(
+    90deg,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+);
+$gradient2: linear-gradient(90deg, rgba(63, 94, 251, 1), rgba(252, 70, 107, 1))
+    1;
+$gradientWhite: linear-gradient(90deg, $bgColor2, $bgColor2) 1;
+
+#yellow {
+    color: $color4;
+    text-decoration: none;
+}

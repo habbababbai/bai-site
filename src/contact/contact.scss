@@ -1,0 +1,38 @@
+@import "../globals.scss";
+
+$gradient: linear-gradient(
+    90deg,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+);
+
+#contactContainer {
+    background-color: $bgColor3;
+    height: 30rem;
+    margin-top: -0.1rem;
+}
+#linksTitle,
+#linksText {
+    text-align: justify;
+    font-family: $font1;
+}
+#linksTitle {
+    margin-left: 1rem;
+    background-image: $gradient;
+    background-clip: text;
+    color: $transparent;
+    font-size: $titleFontSize;
+    font-weight: bold;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+}
+#linksText div {
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
+    margin-left: 1.2rem;
+    width: 90%;
+    color: $fontColor1;
+}
+#linksText {
+    font-size: $textFontSize;
+}

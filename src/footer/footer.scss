@@ -1,4 +1,17 @@
+@import "../globals.scss";
+
 #footerText {
     width: 100%;
     font-size: 0.8em;
+    text-align: center;
+    height: 1rem;
+    position: absolute;
+    bottom: 10%;
+    color: white;
+    font-size: 0.9em;
+}
+#footer {
+    background-image: $gradient;
+    height: 2rem;
+    position: relative;
 }
