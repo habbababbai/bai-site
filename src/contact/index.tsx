@@ -12,19 +12,36 @@ function Contact() {
                         PetCards is a simple game, which combines gameplay
                         mechanics of rock paper sciccors and elements of
                         gambling. It is available on itch.io{" "}
-                        <a id="yellow">right here &larr;</a>
+                        <a
+                            href="https://pusheeneiro.itch.io/petcards"
+                            id="yellow"
+                        >
+                            right here &larr;
+                        </a>
                     </div>
                     <div>
                         My Github page can be found{" "}
-                        <a id="yellow">here &larr;</a>
+                        <a href="https://github.com/habbababbai" id="yellow">
+                            here &larr;
+                        </a>
                     </div>
                     <div>
                         My YouTube channel can be found{" "}
-                        <a id="yellow">here &larr;</a>
+                        <a
+                            href="https://www.youtube.com/channel/UCaDUdKEymDZxldkumFAw0Fg"
+                            id="yellow"
+                        >
+                            here &larr;
+                        </a>
                     </div>
                     <div>
                         My CodeWars profile can be found{" "}
-                        <a id="yellow">here &larr;</a>
+                        <a
+                            href="https://www.codewars.com/users/habbababbai"
+                            id="yellow"
+                        >
+                            here &larr;
+                        </a>
                     </div>
                     <div>
                         You can as well contact me using{" "}
