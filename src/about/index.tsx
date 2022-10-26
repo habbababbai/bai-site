@@ -16,7 +16,8 @@ function About() {
                 <div id="aboutText">
                     I'm programmer living in Poland interested in front-end web
                     development, design and creating video games. This website
-                    was created using React with Typescript and Sass. Source code for site can be found <a id="yellow">here</a>.
+                    was created using React and Sass. Source code for site can
+                    be found <a id="yellow">here</a>.
                 </div>
             </div>
             <div id="techs">
