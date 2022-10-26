@@ -35,6 +35,15 @@ function Contact() {
                         </a>
                     </div>
                     <div>
+                        My Linkedin profile can be found{" "}
+                        <a
+                            href="https://www.linkedin.com/in/jakub-szyma%C5%84ski-7b516a255/"
+                            id="yellow"
+                        >
+                            here &larr;
+                        </a>
+                    </div>
+                    <div>
                         My CodeWars profile can be found{" "}
                         <a
                             href="https://www.codewars.com/users/habbababbai"

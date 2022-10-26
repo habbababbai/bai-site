@@ -19,7 +19,10 @@ function About() {
                     development, design and creating video games. This website
                     was created using React and Sass. Source code for this site
                     can be found{" "}
-                    <a id="yellow">
+                    <a
+                        href="https://github.com/habbababbai/bai-site"
+                        id="yellow"
+                    >
                         here. &larr; <br></br>
                     </a>
                     Most of my projects can be found on my Github page linked
