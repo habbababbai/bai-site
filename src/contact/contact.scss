@@ -35,4 +35,35 @@ $gradient: linear-gradient(
 }
 #linksText {
     font-size: $textFontSize;
+    font-weight: 300;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+    #linksTitle {
+        padding-left: 2rem;
+    }
+    #linksText {
+        padding-left: 2rem;
+        font-size: $textFontSize + 0.2;
+        line-height: 2rem;
+        font-weight: 300;
+    }
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+    #contactContainer {
+        display: flex;
+        justify-content: center;
+        background-color: $bgColor4;
+        height: 40rem;
+    }
+    #links {
+        width: 60rem;
+        background-color: $bgColor3;
+        border: solid 0.1rem $bgColor1;
+        font-size: $textFontSize + 0.2;
+        line-height: 3rem;
+        margin-bottom: 3rem;
+    }
 }

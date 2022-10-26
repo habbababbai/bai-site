@@ -10,6 +10,7 @@
     );
 
     height: 100vh;
+    width: 100%;
     text-align: left;
     display: flex;
     align-items: center;
@@ -92,6 +93,9 @@
     }
 }
 
-/* Large Devices, Wide Screens */
-@media only screen and (min-width: 992px) {
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+    #headerBg span {
+        font-size: 3em;
+    }
 }

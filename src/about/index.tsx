@@ -17,8 +17,14 @@ function About() {
                 <div id="aboutText">
                     I'm programmer living in Poland interested in front-end web
                     development, design and creating video games. This website
-                    was created using React and Sass. Source code for site can
-                    be found <a id="yellow">here</a>.
+                    was created using React and Sass. Source code for this site
+                    can be found{" "}
+                    <a id="yellow">
+                        here. &larr; <br></br>
+                    </a>
+                    Most of my projects can be found on my Github page linked
+                    down below, as well as other things I've done and contact
+                    info.
                 </div>
             </div>
             <div id="techs">
