@@ -127,6 +127,7 @@
     #techsGrid a {
         padding-top: 0.3rem;
         border-image: $gradientWhite;
+        filter: brightness(50%);
     }
     #techsGrid a:visited,
     #techsGrid a:link,
