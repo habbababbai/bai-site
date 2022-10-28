@@ -48,7 +48,6 @@
     column-gap: 1.2rem;
 }
 #techsGrid a {
-    border-image: $gradientWhite;
     border-width: 0.15rem;
     border-style: solid;
     background-color: $bgColor1;
@@ -57,18 +56,11 @@
     justify-content: center;
     color: rgb(204, 204, 204);
     font-size: 0.8em;
-    filter: brightness(50%);
-}
-#techsGrid a:visited,
-#techsGrid a:link,
-#techsGrid a:active {
+    border-image: $gradient2;
+    filter: brightness(90%);
     text-decoration: none;
 }
-#techsGrid a:hover {
-    border-image: $gradient2;
-    transition: 0.2s;
-    filter: brightness(100%);
-}
+
 #techsGrid a img {
     object-fit: contain;
     display: block;
@@ -134,5 +126,16 @@
     }
     #techsGrid a {
         padding-top: 0.3rem;
+        border-image: $gradientWhite;
+    }
+    #techsGrid a:visited,
+    #techsGrid a:link,
+    #techsGrid a:active {
+        text-decoration: none;
+    }
+    #techsGrid a:hover {
+        border-image: $gradient2;
+        transition: 0.2s;
+        filter: brightness(100%);
     }
 }
