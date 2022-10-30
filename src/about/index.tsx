@@ -7,7 +7,6 @@ import reactIcon from "../assets/icon-react.png";
 import reactNativeIcon from "../assets/icon-reactnative.png";
 import csharpIcon from "../assets/icon-csharp.png";
 import unityIcon from "../assets/icon-unity.png";
-import { useRef } from "react";
 
 function About() {
     return (

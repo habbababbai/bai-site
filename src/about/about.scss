@@ -38,6 +38,7 @@
 #techsGridContainer {
     display: flex;
     justify-content: center;
+    height: max-content;
 }
 #techsGrid {
     display: grid;
@@ -62,11 +63,12 @@
 }
 
 #techsGrid a img {
-    object-fit: contain;
+    object-fit: cover;
     display: block;
     margin: auto;
     margin-top: 0.5rem;
     margin-bottom: 0.3rem;
+    image-rendering: crisp-edges;
 }
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
@@ -122,7 +124,7 @@
         grid-template-rows: 7rem 7rem 7rem 7rem;
         grid-template-columns: 12rem 12rem;
         row-gap: 2rem;
-        column-gap: 1.2rem;
+        column-gap: rem;
     }
     #techsGrid a {
         padding-top: 0.3rem;

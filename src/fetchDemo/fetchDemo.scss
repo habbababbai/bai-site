@@ -1,0 +1,129 @@
+@import "../globals.scss";
+
+#fetchContainer {
+    background-color: $bgColor3;
+    color: white;
+    height: 40rem;
+    text-align: center;
+    font-family: $font1;
+}
+#fetchContainer h1,
+h2 {
+    font-size: $titleFontSize;
+    background-image: $gradient;
+    background-clip: text;
+    color: $transparent;
+    font-weight: bold;
+    font-family: $font1;
+    margin-top: 0;
+    padding-top: 2rem;
+    font-size: $titleFontSize;
+}
+#fetchContainer h1 {
+    text-align: justify;
+
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+#fetchContainer h2 {
+    text-align: center;
+    padding-left: 0;
+    color: $color4;
+}
+#fetchContainer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 15rem;
+    border-image: $gradient2;
+    background-image: $gradient2;
+    border-width: 0.25rem;
+    border-style: solid;
+    animation: fadeIn 500ms;
+}
+.emptyImg {
+    height: 15.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+#fetchContainer button {
+    width: 7rem;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+    border-image: $gradientWhite;
+    border-width: 0.15rem;
+    border-style: solid;
+    background-color: $bgColor1;
+    color: rgb(223, 223, 223);
+    font-family: $font1;
+    filter: brightness(60%);
+    cursor: pointer;
+}
+#fetchContainer button:active,
+#fetchContainer button:focus {
+    border-image: $gradient2;
+    transition: 0.1s;
+    filter: brightness(100%);
+}
+#fetchText {
+    text-align: justify;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: $textFontSize;
+    font-weight: 300;
+    line-height: 1.8rem;
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+    #fetchContainer h1 {
+        padding-left: 2rem;
+    }
+    #fetchText {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        font-size: $textFontSize + 0.2;
+        line-height: 2rem;
+        font-weight: 300;
+    }
+    #fetchContainer img {
+        border-width: 0.4rem;
+    }
+    .emptyImg {
+        height: 15.8rem;
+    }
+    #fetchContainer button {
+        width: 8rem;
+        height: 2.5rem;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+    #fetchContainer {
+        background-color: $bgColor4;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 3rem;
+    }
+    #fetchWindowContainer {
+        background-color: $bgColor3;
+        width: 60rem;
+        border: solid 0.1rem $bgColor1;
+    }
+    #fetchText {
+        padding-bottom: 2rem;
+        font-size: $textFontSize + 0.4;
+    }
+    #fetchContainer button:hover {
+        border-image: $gradient2;
+        transition: 0.1s;
+        filter: brightness(100%);
+    }
+}

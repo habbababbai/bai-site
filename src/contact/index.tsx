@@ -55,7 +55,7 @@ function Contact() {
                     <div>
                         You can as well contact me using{" "}
                         <span id="yellow">@</span> by reaching me at{" "}
-                        <span id="yellow">qba.7145@gmail.com</span>
+                        <a href="mailto:qba.7145@gmail.com" id="yellow">qba.7145@gmail.com</a>
                     </div>
                 </div>
             </div>
