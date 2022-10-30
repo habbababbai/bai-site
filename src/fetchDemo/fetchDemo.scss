@@ -35,6 +35,7 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     height: 15rem;
+    width: auto;
     border-image: $gradient2;
     background-image: $gradient2;
     border-width: 0.25rem;
@@ -119,7 +120,7 @@ h2 {
     }
     #fetchText {
         padding-bottom: 2rem;
-        font-size: $textFontSize + 0.4;
+        font-size: $textFontSize + 0.2;
     }
     #fetchContainer button:hover {
         border-image: $gradient2;
