@@ -34,9 +34,10 @@ h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 15rem;
-    width: auto;
+    height: auto;
+    width: 15rem;
     border-image: $gradient2;
+    background: $color3;
     background-image: $gradient2;
     border-width: 0.25rem;
     border-style: solid;
