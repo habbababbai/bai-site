@@ -11,7 +11,6 @@ function useFetch(url: string, timeout: number = 0) {
         setLoading(true);
         axios
             .get(url)
-            .then()
             .then(async (response) => {
                 await sleep(timeout);
                 setData(response.data);
@@ -24,7 +23,7 @@ function useFetch(url: string, timeout: number = 0) {
             .finally(() => {
                 setLoading(false);
             });
-    }, [url]);
+    }, [url, timeout]);
 
     const refetch = () => {
         setLoading(true);

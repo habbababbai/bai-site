@@ -34,14 +34,15 @@ h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: auto;
+    height: 15rem;
     width: 15rem;
     border-image: $gradient2;
-    background: $color3;
+    background: rgba(63, 94, 251, 1);
     background-image: $gradient2;
     border-width: 0.25rem;
     border-style: solid;
     animation: fadeIn 500ms;
+    word-wrap: break-word;
 }
 .emptyImg {
     height: 15.5rem;
