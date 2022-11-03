@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import sleep from "../functions/sleep";
 
-function useFetch(url: string, timeout:number = 0) {
+function useFetch(url: string, timeout: number = 0) {
     const [data, setData] = useState<any>(null);
     const [loading, setLoading] = useState<boolean>(false);
     const [error, setError] = useState(null);
@@ -13,7 +13,7 @@ function useFetch(url: string, timeout:number = 0) {
             .get(url)
             .then()
             .then(async (response) => {
-                await sleep(timeout)
+                await sleep(timeout);
                 setData(response.data);
                 // LOG DATA TO CONSOLE
                 console.log(response.data);
@@ -30,8 +30,12 @@ function useFetch(url: string, timeout:number = 0) {
         setLoading(true);
         axios
             .get(url)
-            .then((response) => {
+            .then()
+            .then(async (response) => {
+                await sleep(timeout);
                 setData(response.data);
+                // LOG DATA TO CONSOLE
+                console.log(response.data);
             })
             .catch((error) => {
                 setError(error);

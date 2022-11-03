@@ -19,21 +19,16 @@ function FetchDemo() {
         refreshUrl();
     }, []);
 
-    const { data, loading, error } = useFetch(url, timeout);
+    const { data, loading, error } = useFetch(url);
 
     if (error) console.log(error);
 
     async function refreshUrl() {
-        const fetchButton = document.getElementById(
-            "fetchButton"
-        ) as HTMLButtonElement;
-
         const rnd = randomNumber(numberOfVillagers);
         const url: string = apiUrl + rnd.toString();
-        setUrl(url);
-        fetchButton.disabled = true;
         await sleep(timeout);
-        fetchButton.disabled = false;
+        setUrl(url);
+
         console.log(url);
     }
 
@@ -66,7 +61,11 @@ function FetchDemo() {
                               ""
                           )}
                 </h2>
-                <button id="fetchButton" onClick={() => refreshUrl()}>
+                <button
+                    disabled={loading}
+                    id="fetchButton"
+                    onClick={() => refreshUrl()}
+                >
                     Next Villager
                 </button>
                 <div id="fetchText">
