@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/bai-site/static/css/main.1eca500f.css",
-    "main.js": "/bai-site/static/js/main.9afebf1e.js",
+    "main.css": "/bai-site/static/css/main.c5aae3d5.css",
+    "main.js": "/bai-site/static/js/main.8aaa01b5.js",
     "static/js/787.7923234a.chunk.js": "/bai-site/static/js/787.7923234a.chunk.js",
     "index.html": "/bai-site/index.html",
-    "main.1eca500f.css.map": "/bai-site/static/css/main.1eca500f.css.map",
-    "main.9afebf1e.js.map": "/bai-site/static/js/main.9afebf1e.js.map",
+    "main.c5aae3d5.css.map": "/bai-site/static/css/main.c5aae3d5.css.map",
+    "main.8aaa01b5.js.map": "/bai-site/static/js/main.8aaa01b5.js.map",
     "787.7923234a.chunk.js.map": "/bai-site/static/js/787.7923234a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1eca500f.css",
-    "static/js/main.9afebf1e.js"
+    "static/css/main.c5aae3d5.css",
+    "static/js/main.8aaa01b5.js"
   ]
 }
