@@ -34,35 +34,35 @@ function About() {
                 <div id="techsGridContainer">
                     <div id="techsGrid">
                         <a href="https://www.javascript.com/">
-                            <img src={jsIcon}></img>
+                            <img src={jsIcon} alt={""}></img>
                             <span>Javascript</span>
                         </a>
                         <a href="https://www.typescriptlang.org/">
-                            <img src={tsIcon}></img>
+                            <img src={tsIcon} alt={""}></img>
                             <span>Typescript</span>
                         </a>
                         <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
-                            <img src={cssIcon}></img>
+                            <img src={cssIcon} alt={""}></img>
                             <span>CSS</span>
                         </a>
                         <a href="https://sass-lang.com/">
-                            <img src={sassIcon}></img>
+                            <img src={sassIcon} alt={""}></img>
                             <span>Sass</span>
                         </a>
                         <a href="https://reactjs.org/">
-                            <img src={reactIcon}></img>
+                            <img src={reactIcon} alt={""}></img>
                             <span>React</span>
                         </a>
                         <a href="https://reactnative.dev/">
-                            <img src={reactNativeIcon}></img>
+                            <img src={reactNativeIcon} alt={""}></img>
                             <span>React Native</span>
                         </a>
                         <a href="https://learn.microsoft.com/en-US/dotnet/csharp/">
-                            <img src={csharpIcon}></img>
+                            <img src={csharpIcon} alt={""}></img>
                             <span>C#</span>
                         </a>
                         <a href="https://unity.com/">
-                            <img src={unityIcon}></img>
+                            <img src={unityIcon} alt={""}></img>
                             <span>Unity Engine</span>
                         </a>
                     </div>

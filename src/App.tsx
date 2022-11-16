@@ -1,10 +1,8 @@
-import React from "react";
 import About from "./about";
 import "./App.scss";
 import Header from "./header";
 import Footer from "./footer";
 import Contact from "./contact";
-import FetchDemo from "./fetchDemo";
 
 function App() {
     return (
