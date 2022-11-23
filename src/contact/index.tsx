@@ -20,6 +20,21 @@ function Contact() {
                         </a>
                     </div>
                     <div>
+                        <a
+                            id="yellow"
+                            href="https://habbababbai.github.io/e-Commerce-Shop-Demo/"
+                        >
+                            Demo E-Commerce Store
+                        </a>{" "}
+                        made in React, with source code{" "}
+                        <a
+                            id="yellow"
+                            href="https://github.com/habbababbai/e-Commerce-Shop-Demo"
+                        >
+                            right here &larr;
+                        </a>
+                    </div>
+                    <div>
                         My Github page can be found{" "}
                         <a href="https://github.com/habbababbai" id="yellow">
                             here &larr;
@@ -55,7 +70,9 @@ function Contact() {
                     <div>
                         You can as well contact me using{" "}
                         <span id="yellow">@</span> by reaching me at{" "}
-                        <a href="mailto:qba.7145@gmail.com" id="yellow">qba.7145@gmail.com</a>
+                        <a href="mailto:qba.7145@gmail.com" id="yellow">
+                            qba.7145@gmail.com
+                        </a>
                     </div>
                 </div>
             </div>
